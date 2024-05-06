@@ -4,8 +4,10 @@ interface AuthLayoutProps {
 
 export default function AuthLayout({ children }: AuthLayoutProps) {
   return (
-    <div className="container mx-auto flex flex-col justify-center items-center h-screen">
-      {children}
+    <div className=" bg-slate-50  h-screen">
+      <div className="flex flex-col justify-center items-center h-screen">
+        {children}
+      </div>
     </div>
   );
 }
